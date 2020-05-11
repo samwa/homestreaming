@@ -4,13 +4,16 @@ script for streaming video and audio from home
 
 ## instructions
 
-apt-get install icecast2 (follow instructions to set passwords)
-apt-get install ffmpeg
+`apt-get install icecast2` (follow instructions to set passwords)
 
+`apt-get install ffmpeg`
+
+```
 wget https://raw.githubusercontent.com/samwa/homestreaming/master/webcam.sh
 nano webcam.sh (change input file and icecast password/server:port)
 chmod +x webcam.sh
 ./webcam.sh
+```
 
 ## links used to get this working
 
