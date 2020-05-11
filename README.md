@@ -8,15 +8,15 @@ script for streaming video and audio from home
 
 `apt-get install ffmpeg`
 
-```
-wget https://raw.githubusercontent.com/samwa/homestreaming/master/webcam.sh
-nano webcam.sh (change input file and icecast password/server:port)
-chmod +x webcam.sh
-./webcam.sh
-```
+`wget https://raw.githubusercontent.com/samwa/homestreaming/master/webcam.sh`
+
+`nano webcam.sh` (change input file and icecast password/server:port)
+
+`chmod +x webcam.sh`
+
+`./webcam.sh`
 
 ## links used to get this working
-
 
 https://maker.pro/raspberry-pi/projects/how-to-build-an-internet-radio-station-with-raspberry-pi-darkice-and-icecast
 
