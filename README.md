@@ -38,7 +38,14 @@ https://trac.ffmpeg.org/wiki/Capture/Webcam
 
 https://wiki.xiph.org/Icecast_Server/Streaming_WebM_to_Icecast_with_FFmpeg
 
+https://learnwithandy.wordpress.com/2018/07/07/diy-live-audio-streaming-using-icecast-with-ffmpeg/
+
 linux commands
+
+```
 show usb devices
 lsubs
-
+cat /proc/asound/cards
+arecord -l
+v4l2-ctl --list-devices
+```
